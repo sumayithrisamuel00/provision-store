@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product List - Provision Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="product-list-page">
+  <header>
+    <img src="logo.png" alt="Provision Store Logo">
+  </header>
+
+  <div class="search-container">
+    <input type="text" id="search" placeholder="Search products...">
+    <button onclick="searchProducts()">Search</button>
+  </div>
+
+  <div class="product-cards" id="productCards">
+    <!-- Angular Material Cards will go here -->
+  </div>
+
+  <button onclick="goBack()">Back to Login</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
